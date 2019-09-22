@@ -6,7 +6,7 @@ This is an upgrade to my first version of the game which can be found [here](htt
 
 ## Dependencies
 
-[YonatanMankovich.BattleshipGameLibrary](https://github.com/yonimn2000/battleship-game-library)
+[YonatanMankovich.BattleshipGameEngine](https://github.com/yonimn2000/battleship-game-engine)
 
 [YonatanMankovich.SimpleConsoleMenus](https://github.com/yonimn2000/simple-console-menus)
 

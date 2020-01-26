@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Drawing;
-using YonatanMankovich.BattleshipGameLibrary;
+using YonatanMankovich.BattleshipGameEngine;
 
 namespace YonatanMankovich.CommandLineBattleship
 {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
-using YonatanMankovich.BattleshipGameLibrary;
+using YonatanMankovich.BattleshipGameEngine;
 using YonatanMankovich.SimpleConsoleMenus;
 
 namespace YonatanMankovich.CommandLineBattleship

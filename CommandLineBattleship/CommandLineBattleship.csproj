@@ -74,8 +74,8 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
-    <Reference Include="YonatanMankovich.BattleshipGameLibrary">
-      <HintPath>..\..\..\Libraries\BattleshipGameLibrary\BattleshipGameLibrary\bin\Debug\netstandard2.0\YonatanMankovich.BattleshipGameLibrary.dll</HintPath>
+    <Reference Include="YonatanMankovich.BattleshipGameEngine">
+      <HintPath>..\..\..\Libraries\BattleshipGameEngine\BattleshipGameEngine\bin\Debug\netstandard2.0\YonatanMankovich.BattleshipGameEngine.dll</HintPath>
     </Reference>
     <Reference Include="YonatanMankovich.SimpleConsoleMenus">
       <HintPath>..\..\..\Libraries\SimpleConsoleMenu\SimpleConsoleMenu\bin\Debug\netstandard2.0\YonatanMankovich.SimpleConsoleMenus.dll</HintPath>

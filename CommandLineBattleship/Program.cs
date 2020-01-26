@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
-using YonatanMankovich.BattleshipGameLibrary;
+using YonatanMankovich.BattleshipGameEngine;
 using YonatanMankovich.SimpleConsoleMenus;
 
 namespace YonatanMankovich.CommandLineBattleship

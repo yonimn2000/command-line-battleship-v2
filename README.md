@@ -10,6 +10,34 @@ This is an upgrade to my first version of the game which can be found [here](htt
 
 [YonatanMankovich.SimpleConsoleMenus](https://github.com/yonimn2000/simple-console-menus)
 
-## Screenshot
+## Game Options XML
 
-![Gameplay](media/Gameplay.png)
+```xml
+<BoardOptions>
+  <AllowAdjacentShips>false</AllowAdjacentShips>
+  <AllowExtraMoveAfterHit>true</AllowExtraMoveAfterHit>
+  <BoardSize width="10" height="10"/>
+  <Ships>
+    <Ship count="1" height="4" width="1" name="Battleship"/>
+    <Ship count="2" height="3" width="1" name="Cruiser"/>
+    <Ship count="3" height="2" width="1" name="Destroyer"/>
+    <Ship count="4" height="1" width="1" name="Submarine"/>
+  </Ships>
+</BoardOptions>
+```
+
+Note that this file opens from the main menu of the game.
+
+## Gameplay
+
+### Main Menu
+
+![Main Menu](media/main_menu.png)
+
+### Placing Ships on Board
+
+![Ship Placement](media/ship_placement.gif)
+
+### The Match
+
+![Gameplay](media/gameplay.gif)

@@ -44,7 +44,7 @@ namespace YonatanMankovich.CommandLineBattleship
         private void AddShipsToPlayerBoard()
         {
             ConsoleGrapher.WriteTextOnLine("Use the arrow keys to position the ship and hit ENTER.", 0);
-            ConsoleGrapher.WriteTextOnLine("Hit 'R' to rotate the ship. Hit 'P' to place the ship automatically. Hit 'F' to finish automatically.", 1);
+            ConsoleGrapher.WriteTextOnLine("Hit 'R' to rotate the ship. Hit 'P' to place the ship automatically.\nHit 'F' to finish automatically.", 1);
             Queue<Ship.Type> fleet = Board.Options.GetFleet();
             bool finishAutomatically = false;
             Point initialPoint = default;
@@ -55,7 +55,7 @@ namespace YonatanMankovich.CommandLineBattleship
                 Ship ship;
                 do
                 {
-                    ConsoleGrapher.DrawBoardWithSelectedArea(2, player.Board, true, initialPoint, shipType.Size);
+                    ConsoleGrapher.DrawBoardWithSelectedArea(3, player.Board, true, initialPoint, shipType.Size);
                     switch (Console.ReadKey().Key)
                     {
                         case ConsoleKey.Enter: userDone = true; break;

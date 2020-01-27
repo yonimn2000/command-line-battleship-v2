@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Diagnostics;
-using System.Runtime.InteropServices;
 using YonatanMankovich.BattleshipGameEngine;
 using YonatanMankovich.SimpleConsoleMenus;
 
@@ -10,7 +8,6 @@ namespace YonatanMankovich.CommandLineBattleship
     {
         static void Main(string[] args)
         {
-            MaximizeConsoleWindow();
             Console.Title = "Yonatan's Command Line Battleship Game";
             Console.CursorVisible = false;
             while (true)
@@ -28,7 +25,7 @@ namespace YonatanMankovich.CommandLineBattleship
             startMenu.AddOption("Change game options", delegate
             {
                 Board.Options.CreateDefaultBoardOptionsFileIfDoesNotExist();
-                Process.Start(Board.Options.PATH_TO_OPTIONS);
+                System.Diagnostics.Process.Start(Board.Options.PATH_TO_OPTIONS);
             });
             startMenu.AddOption("Exit", () => Environment.Exit(0));
             startMenu.ShowAndDoAction();
@@ -40,14 +37,5 @@ namespace YonatanMankovich.CommandLineBattleship
             GameController gameController = new GameController();
             gameController.Play();
         }
-
-        // This code is for maximizing the window. *********************
-        [DllImport("user32.dll")]
-        public static extern bool ShowWindow(IntPtr hWnd, int cmdShow);
-        private static void MaximizeConsoleWindow()
-        {
-            ShowWindow(Process.GetCurrentProcess().MainWindowHandle, 3);
-        }
-        //**************************************************************
     }
 }

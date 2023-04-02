@@ -2,8 +2,6 @@
 
 A command line Battleship game.
 
-The game uses [YonatanMankovich.BattleshipGameEngine](https://github.com/yonimn2000/battleship-game-engine) as its engine.
-
 This is a complete makeover of my first version of the game which can be found [here](https://github.com/yonimn2000/command-line-battleship).
 
 ## Game Options XML

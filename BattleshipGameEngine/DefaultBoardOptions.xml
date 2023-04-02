@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Delete the file to reset to default options-->
+<BoardOptions>
+  <AllowAdjacentShips>false</AllowAdjacentShips>
+  <AllowExtraMoveAfterHit>true</AllowExtraMoveAfterHit>
+  <BoardSize width="10" height="10"/>
+  <Ships>
+    <Ship count="1" height="4" width="1" name="Battleship"/>
+    <Ship count="2" height="3" width="1" name="Cruiser"/>
+    <Ship count="3" height="2" width="1" name="Destroyer"/>
+    <Ship count="4" height="1" width="1" name="Submarine"/>
+  </Ships>
+</BoardOptions>
